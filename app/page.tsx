@@ -1,6 +1,7 @@
 import Hero from "@components/Hero";
 import AboutSection from "@components/AboutSection";
 import ExperienceSection from "@components/ExperienceSection";
+import SkillsSection from "@components/SkillSection";
 import EducationSection from "@components/EducationSection";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         <Hero />
         <AboutSection />
         <ExperienceSection />
+        <SkillsSection />
         <EducationSection />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
