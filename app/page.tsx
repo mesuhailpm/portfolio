@@ -18,9 +18,6 @@ export default function Home() {
         <EducationSection />
         <ContactSection />
       </main>
-      <footer className="">
-        
-      </footer>
     </div>
   );
 }
