@@ -7,6 +7,8 @@ import EducationSection from "@components/EducationSection";
 
 export default function Home() {
   return (
+    <div className="">
+      <main className="">
         <Hero />
         <AboutSection />
         <ExperienceSection />
