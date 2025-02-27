@@ -4,6 +4,7 @@ import ExperienceSection from "@components/ExperienceSection";
 import SkillsSection from "@components/SkillSection";
 import Projects from "@components/Projects";
 import EducationSection from "@components/EducationSection";
+import ContactSection from "@components/ContactsSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <SkillsSection />
         <Projects />
         <EducationSection />
+        <ContactSection />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
