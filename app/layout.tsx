@@ -20,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+       <meta name="apple-mobile-web-app-title" content="Portfolio | Suhail PM" />
+      </head>
       <body
         className={``}
       >
